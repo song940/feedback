@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Liu Song’s Page</title>
+  <title>Liu Song’s Feedback</title>
   <meta name="viewport" content="width=device-width">
   <link type="text/css" charset="utf-8" rel="stylesheet" href="//lsong.org/css/stylesheet.css">
   <link type="text/css" charset="utf-8" rel="stylesheet" href="//lsong.org/css/main.css">
@@ -13,13 +13,12 @@
 
 <body class="container">
   <header class="header">
-    <h1>Liu Song’s Page</h1>
+    <h1>Liu Song’s Feedback</h1>
     <nav class="nav nav-bar">
       <a href="//lsong.org">home</a>
       <a href="//lsong.org/posts">blog</a>
-      <a href="//lsong.org/tv">tv</a>
       <a href="//lsong.org/music">music</a>
-      <a href="//blog.lsong.org/about">about</a>
+      <a href="//lsong.org/game">game</a>
     </nav>
     <hr />
   </header>
@@ -32,7 +31,26 @@
           href="//github.com/song940?tab=repositories">apps</a>.</p>
     </section>
 
-    <section id="app"></section>
+    <section id="app">
+      <h2 class="title">I appreciate your feedback 🌈</h2>
+      <form action="https://formspree.io/song940@gmail.com" method="post" class="form" >
+        <div class="form-field">
+          <label class="label" for="name">Name</label>
+          <input class="input" type="text" name="name">
+        </div>
+        <div class="form-field">
+          <label class="label" for="email">Email*</label>
+          <input class="input" type="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label class="label" for="message">Message*</label>
+          <textarea class="textarea" placeholder="Try to be as clear as possible." name="message" minlength="20" required autofocus></textarea>
+        </div>
+        <div class="form-field">
+          <button class="button button-primary" type="submit">Send Feedback</button>
+        </div>
+      </form>
+    </section>
 
     <hr />
     <section class="subscribe">
