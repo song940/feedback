@@ -1,1 +1,1 @@
-import { ready } from 'https://lsong.org/scripts/dom.js';
+import 'https://lsong.org/js/application.js';
